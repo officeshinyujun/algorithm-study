@@ -13,6 +13,7 @@ def max_of(a :Sequence) -> Any:
         if a[i]> maximum:
             maximum = a[i]
         return maximum
+print(__name__)
 
 if __name__ == '__main__':
     print('배열의 최댓값을 구합니다.')
